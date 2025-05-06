@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hayao Miyazaki Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container my-5">
+    <h1 class="text-center mb-5">Hayao Miyazaki Profile</h1>
+
+    <div class="row">
+      
+      <div class="col-md-6 mb-4">
+        <img src="assets/images/hayao-miyazaki.jpg" class="img-fluid rounded w-100" alt="Hayao Miyazaki Portrait">
+      </div>
+
+      
+      <div class="col-md-6">
+        <h2 class="text-primary">Legendary Animator</h2>
+        <p>Hayao Miyazaki is a world-renowned Japanese animator, director, producer, screenwriter, and manga artist. He is the co-founder of Studio Ghibli and has created some of the most beloved animated films.</p>
+
+        <a href="#" class="btn btn-link text-decoration-none text-primary">Hayao Miyazaki making ramen</a>
+        <div class="ratio ratio-16x9 mb-4">
+          <video controls>
+            <source src="assets/videos/hayao-miyazaki-ramen.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+       
+        <div class="row">
+          <div class="col-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-success">Achievements</h5>
+                <ul class="list-unstyled">
+                  <li>• Spirited Away (Oscar Winner)</li>
+                  <li>• Totoro (Cultural Icon)</li>
+                  <li>• Lifetime Achievement Award</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-warning">Awards</h5>
+                <ul class="list-unstyled">
+                  <li>• Academy Award</li>
+                  <li>• Golden Bear</li>
+                  <li>• Honorary Oscar</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+        <div class="mt-3">
+          <img src="assets/images/ghibli-char.jpg" class="img-fluid rounded w-100" alt="Studio Ghibli Characters">
+        </div>
+
+      </div> 
+    </div> 
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
